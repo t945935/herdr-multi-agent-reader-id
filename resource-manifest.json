@@ -1,0 +1,162 @@
+{
+  "resource_version": "1.0.0",
+  "book_edition": "1.0",
+  "title": "Orkestrasi Agen AI dengan Herdr",
+  "language": "id",
+  "rights_authority": "Pengguna mengonfirmasi pada 2026-11-09 bahwa Happy eBook mengotorisasi terjemahan edisi Bahasa Indonesia, distribusi publik materi pendamping, dan penjualan ebook Bahasa Indonesia.",
+  "license": "Hak cipta tetap pada Happy eBook. Otorisasi edisi Indonesia mencakup terjemahan, distribusi publik materi pendamping, dan penjualan ebook; tidak memberi lisensi sumber terbuka umum.",
+  "files": {
+    ".gitignore": {
+      "bytes": 49,
+      "sha256": "5dba25bbfc0bd0891deaa5ceea0b3217f4473f53fea49d290e68bbc17a41c2f5"
+    },
+    "CHANGELOG.md": {
+      "bytes": 249,
+      "sha256": "7ba44a289c4769e7bbabb95a1b04b34fe7ea443c47b5a201dafe2fee0b2bf161"
+    },
+    "README.md": {
+      "bytes": 832,
+      "sha256": "dcaf115aad94df189ef40e417536f1f33982cddf5e5bc5ffdf4237a659812735"
+    },
+    "examples/README.md": {
+      "bytes": 1886,
+      "sha256": "9b9b03e4cdb7832251e0db372b11589f4d0601de5e2725f73617cb01648c842c"
+    },
+    "examples/__init__.py": {
+      "bytes": 66,
+      "sha256": "780de12ffbf6e6202ab49ca84d6106baf2d7da1bb823f30ec100091488c83a3b"
+    },
+    "examples/calculator.py": {
+      "bytes": 668,
+      "sha256": "3af17f69469accd7c805994eb54e895f1b3f67af2186c6dbb2bbce0477eb96fb"
+    },
+    "examples/grades.py": {
+      "bytes": 2173,
+      "sha256": "adf2c51ae502d307d32bcb09d7ff516d5b47d392e99054dff9ef2dde3c79774f"
+    },
+    "examples/handoff.py": {
+      "bytes": 1618,
+      "sha256": "b3c764c4b9771c9919aa4881d9007f3f508d25c892218df8c39984f1d5a9933a"
+    },
+    "examples/pipeline.py": {
+      "bytes": 2449,
+      "sha256": "ec2b1e8bd8656a9555fc6606bd7b2648954b68532680add09ca83b2e38fdd301"
+    },
+    "examples/prompts/backend.md": {
+      "bytes": 418,
+      "sha256": "5bd8c745c4a2f347e25baa39f9c0c2333f3ad870d9fff09b279f7c423d26035d"
+    },
+    "examples/prompts/database.md": {
+      "bytes": 447,
+      "sha256": "977670a68463772ab88d4706f7b90263111678ae8d62ec8a8713f0a69c0d2676"
+    },
+    "examples/prompts/developer.md": {
+      "bytes": 807,
+      "sha256": "db67581c8775a7bcbc3c922d94b019d12260321416c92b7b657aa43cda012929"
+    },
+    "examples/prompts/fact-checker.md": {
+      "bytes": 483,
+      "sha256": "d6a58a62b77b4801fe2a659eefcf3dd53abfde5b361096a7e0dcf87b3a3d8dcf"
+    },
+    "examples/prompts/frontend.md": {
+      "bytes": 448,
+      "sha256": "656e9f5b22434fd2a379448e230e59a9854403e82ea552b9cb269a3e8d75c1f5"
+    },
+    "examples/prompts/grades-developer.md": {
+      "bytes": 1211,
+      "sha256": "7866cdb985248437c48f408e05080ba5290e5e2ed47c31395cec00d16bef98cd"
+    },
+    "examples/prompts/grades-qa.md": {
+      "bytes": 1009,
+      "sha256": "8285b6953b60ab167c69a1ef29f88d94263e2c107caed4550241190f46af58a4"
+    },
+    "examples/prompts/manager.md": {
+      "bytes": 839,
+      "sha256": "d12591e73b41eea7eb2daa67e3551b49c05b1bf59964040ae224970ff7ca45da"
+    },
+    "examples/prompts/qa.md": {
+      "bytes": 366,
+      "sha256": "0aa7310083ae6bc4838ca61790420a03557751134edee1e2a153dfb87ee34666"
+    },
+    "examples/prompts/receipt-smoke.md": {
+      "bytes": 561,
+      "sha256": "5eb9887a8d12a39584de26fd6cca9cbe2042e37634e3e228d249b63de94a8856"
+    },
+    "examples/prompts/researcher.md": {
+      "bytes": 677,
+      "sha256": "3159c3d7ac99fcdb2aa611729f5cd36140abc962fe8e76f48984529d9a002380"
+    },
+    "examples/prompts/reviewer-a.md": {
+      "bytes": 751,
+      "sha256": "a236ec060a4902fde0485c7d9a8e03f762975a2a30b105936fea0e8aa83b0e8d"
+    },
+    "examples/prompts/reviewer-b.md": {
+      "bytes": 735,
+      "sha256": "7642dd7fb9c0c76fdbfd43af0697627d623f621e1705244edc7a646c5cdb86cb"
+    },
+    "examples/queue.py": {
+      "bytes": 5705,
+      "sha256": "23f76fd43e2e8ac779b8770c1ad17a81777175f3889701a480953e8d409daeec"
+    },
+    "examples/research-evidence.json": {
+      "bytes": 2765,
+      "sha256": "515f2f1fd9a9b013b1da184fc73685a675c39198c5648f5d4073864f2f191f63"
+    },
+    "examples/research.py": {
+      "bytes": 2670,
+      "sha256": "097131b54a7a99576382defcaca7b1b594bf191a342ecc1d1055f23a08fd0032"
+    },
+    "examples/task_manager/__init__.py": {
+      "bytes": 35,
+      "sha256": "1b850b577b9d0d06c07979c05e69f669f6726549b91929ff4c6dae2ec0847681"
+    },
+    "examples/task_manager/db.py": {
+      "bytes": 1953,
+      "sha256": "802d395772fb3667bbb28cbaf72f18e1f93af044767f36b1797c296c181d3202"
+    },
+    "examples/task_manager/main.py": {
+      "bytes": 3270,
+      "sha256": "a34ab66710fe6c0bf04356fa2c175a2f4850a0ba63a7f8713f4200f8a9b96a31"
+    },
+    "examples/task_manager/static/app.js": {
+      "bytes": 2319,
+      "sha256": "d27620e9a658f0140d220e81418204431b8fe5f3f10a797f2c43ddaca87e15cc"
+    },
+    "examples/task_manager/static/index.html": {
+      "bytes": 635,
+      "sha256": "6655320a1e14782e8b0730c8fed487d1b7a5d5746d67d82540dbb7fa26476545"
+    },
+    "examples/task_manager/static/style.css": {
+      "bytes": 658,
+      "sha256": "db5deebc566223289a597ef4aac2275004b787ee6ab842cd54e3876265c9c819"
+    },
+    "requirements.txt": {
+      "bytes": 61,
+      "sha256": "a45dd04a2d8a44160508ffc731ea77102ea2e861535fa92985c2a72b1475c835"
+    },
+    "scripts/make_handoff.py": {
+      "bytes": 634,
+      "sha256": "c37a867111ba1b261d6f4ade5b31f81733912edb7bfe2e13f78578402d260f1f"
+    },
+    "scripts/probe_herdr.py": {
+      "bytes": 6272,
+      "sha256": "4e406f060a2c899bda9c7a892a3f5e85c5553e30568947ab8b5ac167bad60f65"
+    },
+    "scripts/team.py": {
+      "bytes": 2555,
+      "sha256": "ed6e961323e883a8193f02571ab9d4086aeaf29c88c9848c7a3a33a49cce3891"
+    },
+    "tests/test_api.py": {
+      "bytes": 2770,
+      "sha256": "73719ebb481d39989fa9b052503bb113c12cf3683111be60010cd646f6d54227"
+    },
+    "tests/test_contracts.py": {
+      "bytes": 5736,
+      "sha256": "545dae11fc9ea20273273e2be056e265ce6375a32e4dbd7f95d11dab68af0873"
+    },
+    "tests/test_queue_concurrency.py": {
+      "bytes": 579,
+      "sha256": "bf949e76e4b9769caa17ccaabe9a30d89b248bf21d32b00e9cbe00583a0c5e16"
+    }
+  }
+}

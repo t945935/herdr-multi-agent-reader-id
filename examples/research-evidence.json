@@ -1,0 +1,97 @@
+{
+  "question": "Bagaimana memilih dan menyusun LLM lokal serta lingkungan pengodean multiagen?",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Herdr Agent automation",
+      "url": "https://herdr.dev/tui/docs/agent-automation/",
+      "accessed": "2026-11-06",
+      "kind": "official"
+    },
+    {
+      "id": "S2",
+      "title": "Herdr CLI reference",
+      "url": "https://herdr.dev/tui/docs/cli-reference/",
+      "accessed": "2026-11-06",
+      "kind": "official"
+    },
+    {
+      "id": "S3",
+      "title": "Ollama API Introduction",
+      "url": "https://docs.ollama.com/api/introduction",
+      "accessed": "2026-11-06",
+      "kind": "official"
+    },
+    {
+      "id": "S4",
+      "title": "llama.cpp HTTP Server",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md",
+      "accessed": "2026-11-06",
+      "kind": "official"
+    },
+    {
+      "id": "S5",
+      "title": "Codex CLI",
+      "url": "https://developers.openai.com/codex/cli/",
+      "accessed": "2026-11-06",
+      "kind": "official"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Penungguan mengonfirmasi status siklus hidup, tetapi hasil kerja tetap memerlukan pemeriksaan penerimaan",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "S1",
+          "quote": "It does not track individual turns."
+        }
+      ]
+    },
+    {
+      "text": "pane wait-output cocok untuk keluaran proses biasa; agent wait cocok untuk agen",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "S2",
+          "quote": "Use pane wait-output for normal commands and servers. Use agent wait for coding agents."
+        }
+      ]
+    },
+    {
+      "text": "Ollama menyediakan endpoint inferensi lokal dan juga mendukung penggunaan cloud",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "S3",
+          "quote": "Use Ollama's API to build applications with cloud or local models."
+        }
+      ]
+    },
+    {
+      "text": "Server llama.cpp menyediakan API REST model dan antarmuka web",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "S4",
+          "quote": "Set of LLM REST APIs and a web UI to interact with llama.cpp."
+        }
+      ]
+    },
+    {
+      "text": "CLI pengodean dapat memeriksa dan mengubah kode serta menjalankan perintah di terminal",
+      "status": "supported",
+      "evidence": [
+        {
+          "source": "S5",
+          "quote": "Inspect code, make changes, run commands, and automate repeatable work without leaving your terminal."
+        }
+      ]
+    },
+    {
+      "text": "Penambahan agen pasti meningkatkan akurasi riset LLM lokal",
+      "status": "uncertain",
+      "evidence": []
+    }
+  ]
+}
